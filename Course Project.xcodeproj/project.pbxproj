@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F4822F273063DD008DE16A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F4822E273063DD008DE16A /* main.cpp */; };
+		00F4822F273063DD008DE16A /* project.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F4822E273063DD008DE16A /* project.cpp */; };
+		00F482372730644A008DE16A /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F482352730644A008DE16A /* Employee.cpp */; };
+		00F4823A2730645E008DE16A /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F482382730645E008DE16A /* Person.cpp */; };
+		00F4823D2730646C008DE16A /* Date.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00F4823B2730646C008DE16A /* Date.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00205A602730C2220000440B /* hrdata.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hrdata.txt; path = "/Users/devon/Documents/School/Farmingdale State/Fall 2021/BCS 230 - Foundations of Computer Programming II/Projects/Course Project/Course Project/hrdata.txt"; sourceTree = "<absolute>"; };
 		00F4822B273063DD008DE16A /* Course Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Course Project"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00F4822E273063DD008DE16A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		00F4822E273063DD008DE16A /* project.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = project.cpp; sourceTree = "<group>"; };
+		00F482352730644A008DE16A /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		00F482362730644A008DE16A /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
+		00F482382730645E008DE16A /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		00F482392730645E008DE16A /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		00F4823B2730646C008DE16A /* Date.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Date.cpp; sourceTree = "<group>"; };
+		00F4823C2730646C008DE16A /* Date.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Date.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,14 @@
 		00F4822D273063DD008DE16A /* Course Project */ = {
 			isa = PBXGroup;
 			children = (
-				00F4822E273063DD008DE16A /* main.cpp */,
+				00205A602730C2220000440B /* hrdata.txt */,
+				00F4822E273063DD008DE16A /* project.cpp */,
+				00F482352730644A008DE16A /* Employee.cpp */,
+				00F4823B2730646C008DE16A /* Date.cpp */,
+				00F4823C2730646C008DE16A /* Date.hpp */,
+				00F482362730644A008DE16A /* Employee.hpp */,
+				00F482382730645E008DE16A /* Person.cpp */,
+				00F482392730645E008DE16A /* Person.hpp */,
 			);
 			path = "Course Project";
 			sourceTree = "<group>";
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00F4822F273063DD008DE16A /* main.cpp in Sources */,
+				00F4822F273063DD008DE16A /* project.cpp in Sources */,
+				00F4823A2730645E008DE16A /* Person.cpp in Sources */,
+				00F482372730644A008DE16A /* Employee.cpp in Sources */,
+				00F4823D2730646C008DE16A /* Date.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
